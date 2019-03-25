@@ -1,0 +1,45 @@
+{
+  "name": "testtesttest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "webpack --watch --config webpack.config.dev.js",
+    "build:prod": "webpack --config webpack.config.prod.js",
+    "serve": "webpack-dev-server --config webpack.config.dev.js"
+  },
+  "author": "Iaroslav Aksenov",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/polyfill": "^7.4.0",
+    "normalize.css": "^8.0.1",
+    "react": "^16.8.5",
+    "react-app-polyfill": "^0.2.2",
+    "react-dom": "^16.8.5",
+    "react-redux": "^6.0.1",
+    "redux": "latest",
+    "redux-actions": "^2.6.5",
+    "redux-saga": "^1.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-plugin-transform-react-pug": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "classnames": "^2.2.6",
+    "copy-webpack-plugin": "^5.0.2",
+    "css-loader": "^2.1.1",
+    "node-sass": "^4.11.0",
+    "path": "^0.12.7",
+    "redux-logger": "^3.0.6",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1",
+    "webpack-obfuscator": "^0.18.0"
+  }
+}
